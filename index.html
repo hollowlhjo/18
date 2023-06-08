@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">    
 </head>
 
-<body onload="init()">
+<body>
     <h1>----THE SNAKE GAME----</h1>
     <div id="game-board">
     <div class="cell"></div>
@@ -116,8 +116,9 @@
     <div class="cell"></div>
     <div class="cell"></div>
     </div>
-    <h1 id="timer">0</h1>
+    <h1 id="timer">Timer: 0</h1>
+    <h1 id ="points">Points: 0</h1>
+    <button id="btn" onclick="InitGame()">Start GAME</button>
     <script src="script.js"></script>
-    <script src="/timer.js"></script>
 </body>
 </html>

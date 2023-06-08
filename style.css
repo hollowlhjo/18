@@ -22,7 +22,10 @@ h1{
   background: rgb(29,179,46);
   background: linear-gradient(204deg, rgba(29,179,46,1) 0%, rgba(19,121,9,1) 38%, rgba(82,164,37,1) 100%); 
 }
-
+.snakeTail{
+  background: rgb(29,179,46);
+  background: linear-gradient(204deg, rgba(29,179,46,1) 0%, rgba(19,121,9,1) 38%, rgba(82,164,37,1) 100%); 
+}
 .food {
   background: rgb(179,29,29);
   background: linear-gradient(204deg, rgba(179,29,29,1) 0%, rgba(121,9,9,1) 38%, rgba(62,1,1,1) 100%); 
@@ -31,4 +34,22 @@ h1{
   margin-left: 876px;
   margin-top: 45px;
   font-family: 'Pangolin', cursive;
+}
+#points{
+  margin-left: 877px;
+}
+#btn{
+  margin-left: 877px;
+  font-family: 'Pangolin', cursive;
+  color: #fff;
+  width: 138px;
+  background: rgb(158,120,205);
+  background: linear-gradient(90deg, rgba(158,120,205,1) 0%, rgba(29,26,215,1) 50%, rgba(0,76,215,1) 100%);
+  border: #000 solid 0.25px;
+  border-radius: 15px 25px;
+  transition: all 1s;
+  transform: scale(1.6);
+}
+#btn:hover{
+  border-radius: 25px 15px;
 }
