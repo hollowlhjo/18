@@ -1,9 +1,15 @@
+h1{
+  margin-left: 764px;
+  font-family: 'Pangolin', cursive;
+}
 #game-board {
+  margin-left: calc(50% - 250px);
   display: flex;
   flex-wrap: wrap;
   width: 520px;
   height: 500px;
-  border: 1px solid #000;
+  border: 0.25px solid #000;
+  box-shadow:rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .cell {
@@ -13,9 +19,16 @@
   border: 1px solid #000;
 }
 .snake {
-  background-color: #0b3d01;
+  background: rgb(29,179,46);
+  background: linear-gradient(204deg, rgba(29,179,46,1) 0%, rgba(19,121,9,1) 38%, rgba(82,164,37,1) 100%); 
 }
 
 .food {
-  background-color: #f00;
+  background: rgb(179,29,29);
+  background: linear-gradient(204deg, rgba(179,29,29,1) 0%, rgba(121,9,9,1) 38%, rgba(62,1,1,1) 100%); 
+}
+#timer{
+  margin-left: 876px;
+  margin-top: 45px;
+  font-family: 'Pangolin', cursive;
 }
